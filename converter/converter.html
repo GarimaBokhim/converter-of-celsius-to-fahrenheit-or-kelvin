@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <title>converter of celsius</title>
+    </head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <body>
+        <div class="flex justify-center items-center bg-gray-100 h-screen">
+            <div>
+                <div class="mb-10">
+                    <h1 class="font-sans text-5xl font-bold text-black">Celsius to Fahrenheit or Kelvin</h1>
+                </div>
+                <div>
+                    <div class=" flex justify-center mb-4">
+                        <input id="input" class="input rounded-lg border-2 shadow-xl h-10 pl-11 w-10/12 " type="text">
+                    </div>
+                    <div class="flex  justify-end">
+                        <button id="fahrenheit" class="m-5 bg-slate-700 text-white p-3 rounded-lg h-full">Fahrenheit</button>
+                        <button id="kelvin" class="m-5 bg-slate-700 p-3 items-center rounded-lg text-white">Kelvin</button>
+                    </div>
+                </div>
+                <div id="output">You will get the desired result here</div>
+            </div>
+        </div>
+        <script src="converter.js"></script>
+    </body>
+</html>
